@@ -28,7 +28,7 @@ Time:Date
 let DataNifty = mongoose.model('DataNifty',niftyschema);
 
 
-
+//karan
 app.get('/data',(req,res)=>{
     DataNifty.find({},(err,d)=>{
         if(err)
